@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Longport DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Longport Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 1989,
+  "height": 2360,
+  "nodata": -999999,
+  "minMeters": -1.412,
+  "maxMeters": 5.48,
+  "meanMeters": 0.905,
+  "stdDevMeters": 1.586,
+  "minFeet": -4.63254593174,
+  "maxFeet": 17.979002624600003,
+  "webMercatorBounds": [
+    -8298084.72791,
+    4764670.070052001,
+    -8295053.49191,
+    4768266.710052
+  ],
+  "leafletBounds": [
+    [
+      39.299546,
+      -74.5429634
+    ],
+    [
+      39.3245426,
+      -74.5157373
+    ]
+  ],
+  "files": {
+    "demCog": "longport_dem_5ft_cog.tif",
+    "hillshadeCog": "longport_hillshade_cog.tif",
+    "hillshadePng": "longport_hillshade.png",
+    "boundaryGeojson": "longport_boundary.geojson"
+  }
+}
